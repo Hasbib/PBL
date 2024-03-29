@@ -15,22 +15,22 @@
            <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav ms-auto">
                    <li class="nav-item">
-                       <a class="nav-link active" href="#">Beranda</a>
+                       <a class="nav-link" href="/">Beranda</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#tentang-section">Tentang</a>
+                       <a class="nav-link" href="/#tentang-section">Tentang</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#kategori-section">Kategori</a>
+                       <a class="nav-link" href="/#kategori-section">Kategori</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#timeline-section">Timeline</a>
+                       <a class="nav-link" href="/#timeline-section">Timeline</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#berita-section">Berita</a>
+                       <a class="nav-link active" href="/#berita-section">Berita</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#sponsor-section">Sponsor</a>
+                       <a class="nav-link" href="/#sponsor-section">Sponsor</a>
                    </li>
                    <li class="nav-item">
                        <a class="nav-link" href="/kontak">Kontak</a>
@@ -48,28 +48,31 @@
 
 
     <!--=================================
-        ERROR PAGE START
+        EVENT DETAILS PAGE START
     ==================================-->
-    <section class="tf__error_page mt_195 xs_mt_100">
+    <section class="tf__event_details mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
-                    <div class="tf__error_text">
-                        <div class="img">
-                            <img src="../../../../public/bootstrap/images/error_img.png" alt="error" class="img-fluid w-100">
-                        </div>
-                        <h4>Page not found</h4>
-                        <p>Halaman Belum tersedia</p>
-                        <a class="common_btn" href="/">go to home</a>
+                <div class="col-12" style="margin-top: 80px;">
+                    <h2 style="text-align: center;margin-bottom: 50px;"><b>Ketua Emailkomp Periode 2024</b> </h2>
+                    <div class="tf__event_details_img "> 
+                        <img src="../../../../public/bootstrap/images/farel.png" alt="event details" class="w-100">
+                    </div>
+                    <div class="tf__event_details_text mt_35 wow fadeInUp" data-wow-duration="1.5s">
+                        <ul class="location d-flex flex-wrap"  style="margin-top: 50px;">
+                            <li><i class="fas fa-user"></i> Admin</li>
+                            <li><i class="far fa-clock"></i> 12-12-2023</li>
+                        </ul>
+                        <p>Emailkomp adalah sebuah organisasi dibawah pengawa langsung oleh D3 Teknik Informatika. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--=================================
-        ERROR PAGE END
+        EVENT DETAILS PAGE END
     ==================================-->
-
+    
     <!--=================================
            FOOTER START
        ==================================-->
