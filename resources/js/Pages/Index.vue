@@ -289,18 +289,16 @@
 
 
    <!--=================================
-       FOOTER START
-   ==================================-->
-   <footer class="tf__footer mt_100">
-       <div class="tf__footer_overlay pt_75">
-           <div class="tf__copyright">
-               <p>Copyright ©2024 Tim Website OLINAS</p>
-           </div>
-       </div>    
-   </footer>
-   <!--=================================
-       FOOTER END
-   ==================================-->
+           FOOTER START
+       ==================================-->
+       <footer class="tf__footer mt_100">
+            <div class="text-center p-4" style="background-color: #191e24f5; color: white;">
+                Copyright ©2024 Tim Website OLINAS
+            </div>
+        </footer>
+       <!--=================================
+           FOOTER END
+       ==================================-->
 
 
    <!--=============================
