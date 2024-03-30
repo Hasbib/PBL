@@ -3,7 +3,9 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "generate": "npm run dev",
+        "prod": "npm run build"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^5.0.4",

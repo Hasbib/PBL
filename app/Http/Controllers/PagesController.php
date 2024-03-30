@@ -34,5 +34,25 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Index2');
     }
+    public function partisipan()
+    {
+        return Inertia::render('Admin/Partisipan');
+    }
+    public function pesan()
+    {
+        return Inertia::render('Admin/Pesan');
+    }   
+    public function lomba()
+    {
+        return Inertia::render('Admin/Lomba');
+    } 
+
+
+
+
+    public function proses()
+    {
+        return Inertia::render('Proses');
+    }
 
 }
