@@ -5,7 +5,7 @@
    <nav class="navbar navbar-expand-lg main_menu">
        <div class="container">
            <a class="navbar-brand" href="#">
-               <img src="../../logo.png" alt="Olinas" class="img-fluid w-100">
+               <img src="../../../public/bootstrap/images/logo.png" alt="Olinas" class="img-fluid w-100">
            </a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -291,12 +291,10 @@
    <!--=================================
        FOOTER START
    ==================================-->
-   <footer class="tf__footer mt_100">
-       <div class="tf__footer_overlay pt_75">
-           <div class="tf__copyright">
-               <p>Copyright ©2024 Tim Website OLINAS</p>
-           </div>
-       </div>    
+    <footer class="tf__footer mt_100">
+        <div class="text-center p-4" style="background-color: #191e24f5; color: white;">
+            Copyright ©2024 Tim Website OLINAS
+        </div>
    </footer>
    <!--=================================
        FOOTER END

@@ -25,3 +25,9 @@ Route::get('/daftar', [PagesController::class, 'daftar']);
 Route::get('/lupapassword', [PagesController::class, 'lupapassword']);
 Route::get('/informasiberita', [PagesController::class, 'informasiberita']);
 Route::get('/index2', [PagesController::class, 'index2']);
+Route::get('/partisipan', [PagesController::class, 'partisipan']);
+Route::get('/pesan', [PagesController::class, 'pesan']);
+Route::get('/lomba', [PagesController::class, 'lomba']);
+
+
+Route::get('/proses', [PagesController::class, 'proses']);
