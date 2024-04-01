@@ -118,7 +118,30 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Setting/Editsetting');
     }
-
+    public function dashboardjuri()
+    {
+        return Inertia::render('Juri/Dashboardjuri');
+    }
+    public function dashboardpetugas()
+    {
+        return Inertia::render('Petugas/Dashboardpetugas');
+    }
+    public function overviewpeserta()
+    {
+        return Inertia::render('Peserta/Overviewpeserta');
+    }
+    public function profilpeserta()
+    {
+        return Inertia::render('Peserta/Profilpeserta');
+    }
+    public function notifikasipeserta()
+    {
+        return Inertia::render('Peserta/Notifikasipeserta');
+    }
+    public function reportpeserta()
+    {
+        return Inertia::render('Peserta/Reportpeserta');
+    }
 
 
 
