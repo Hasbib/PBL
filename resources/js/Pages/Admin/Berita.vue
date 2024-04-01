@@ -55,8 +55,8 @@
                 </li>
                 <li>
                     <a href="/">
-                    <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
-                    </div>
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
+                        </div>
                         <div class="menu-title">Logout</div>
                     </a>
                 </li>
@@ -77,9 +77,9 @@
 					</a>
 				</div>
                 </nav>    
-                <div class="header-notifications-list">
-                </div>
-                <div class="header-message-list">                                                                                
+                    <div class="header-notifications-list">
+                    </div>
+                    <div class="header-message-list">                                                                                
                 </div>
             </div>
         </header>
@@ -87,54 +87,48 @@
         <!--start page wrapper -->
         <div class="page-wrapper">
             <div class="page-content">
+                <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                    <div class="ps-3">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0 p-0">
+                                <li class="breadcrumb-item">
+                                </li>                             
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Pesan</h4>
+                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Berita</h4>
                         <hr style="margin-top: 10px;" />		
-                        <label style="margin-right: 10px;">Filter by Status</label> 
-						<select class="form-select2">
-							<option selected>Semua</option>
-							<option>Belum Dibaca</option>
-                            <option>Sudah Dibaca</option>
-						</select>
-                        <br><br>  
-                        <table id="example" class="table table-bordered" style="width:100%">
-							<thead class="table-dark">
-								<tr>
-									<th>ID</th>
-									<th>Nama</th>  
-									<th>Email</th>
-                                    <th style="width: 100px;" >No WhatsApp</th>
-                                    <th style="width: 290px;">Pesan</th>
-									<th style="border: none;">Status</th>
-                                    <th style="border: none;"></th> 
-								</tr>
-							</thead>
-                            <tbody>
-								<tr>
-									<td>1</td>
-									<td>Lionel Andres </td>
-									<td>goat@gmail.com</td>
-                                    <td>08123456789</td>
-                                    <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                    <td style="border: none;"><label>Belum Baca</label></td>
-                                    <td style="border: none;">
-                                        <input type="checkbox">
-                                    </td>
-								</tr>
+                        <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahberita'">Tambah Berita</button>
+                        <hr style="margin-top: 10px;" />
+                        <table id="example" class="table mt-3  table-bordered">
+                            <thead class="table-dark">
                                 <tr>
-									<td>2</td>
-									<td>Cristiano Ikhsan </td>
-									<td>goat@gmail.com</td>
-                                    <td>08123456789</td>
-                                    <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                    <td style="border: none;"><label>Sudah Baca</label></td>
-                                    <td style="border: none;">
-                                        <input type="checkbox" checked>
+                                    <th style="width: 1px;">ID</th>
+                                    <th style="width: 100px;">Judul</th>
+                                    <th style="width: 130px;">Deskripsi Awal</th>
+                                    <th style="width: 40px;">Penerbit</th>
+                                    <th style="font-size: 12px; width: 75px">Tanggal Upload</th>  
+                                    <th style="width: 145px;">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Profil Ketua Emailkomp Periode 2024</td>
+                                    <td>Emailkomp adalah sebuah organisasi dibawah pengawasan langsung oleh Prodi Teknik Informatika</td>
+                                    <td>Admin</td>   
+                                    <td>29 Maret 2024</td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-secondary" onclick="window.location.href='/detailberita'"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-primary" onclick="window.location.href='/editberita'"><i class="bi bi-pencil-square"></i></button>    
+                                        <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
                                     </td>
-								</tr>
+                                </tr>
                             </tbody>
-					    </table>                
+                        </table>
                     </div>
                 </div>
             </div>
@@ -142,7 +136,7 @@
         <!--end page wrapper -->
     </div>
 </template>
-
+    
 <script>
 $(document).ready(function() {
     $('#example').DataTable();

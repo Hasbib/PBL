@@ -55,8 +55,8 @@
                 </li>
                 <li>
                     <a href="/">
-                    <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
-                    </div>
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
+                        </div>
                         <div class="menu-title">Logout</div>
                     </a>
                 </li>
@@ -77,9 +77,9 @@
 					</a>
 				</div>
                 </nav>    
-                <div class="header-notifications-list">
-                </div>
-                <div class="header-message-list">                                                                                
+                    <div class="header-notifications-list">
+                    </div>
+                    <div class="header-message-list">                                                                                
                 </div>
             </div>
         </header>
@@ -89,52 +89,44 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Pesan</h4>
+                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Tim</h4>
                         <hr style="margin-top: 10px;" />		
                         <label style="margin-right: 10px;">Filter by Status</label> 
 						<select class="form-select2">
 							<option selected>Semua</option>
-							<option>Belum Dibaca</option>
-                            <option>Sudah Dibaca</option>
+							<option>Verified</option>
+                            <option>Unverified</option>
 						</select>
-                        <br><br>  
+                        <button class="btn btn-primary" style="margin-top: -7px; float: right;">Export Excel</button>
+                        <br><br>
                         <table id="example" class="table table-bordered" style="width:100%">
 							<thead class="table-dark">
 								<tr>
-									<th>ID</th>
-									<th>Nama</th>  
-									<th>Email</th>
-                                    <th style="width: 100px;" >No WhatsApp</th>
-                                    <th style="width: 290px;">Pesan</th>
-									<th style="border: none;">Status</th>
-                                    <th style="border: none;"></th> 
+									<th style="width: 2px;">ID</th>
+									<th style="width: 90px;">Nama Tim</th>
+									<th style="width: 90px;">Lomba</th>
+                                    <th style="width: 100px;">No WhatsApp</th>
+									<th style="width: 120px;">Email</th>
+                                    <th style="width: 90px;">Instansi</th>
+									<th style="width: 60px;">Status</th>
+                                    <th style="width: 60px;">Aksi</th>
 								</tr>
 							</thead>
                             <tbody>
 								<tr>
 									<td>1</td>
-									<td>Lionel Andres </td>
+									<td>Start Green</td>
+									<td>Lomba Desain</td>
+                                    <td>0850000000</td>
 									<td>goat@gmail.com</td>
-                                    <td>08123456789</td>
-                                    <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                    <td style="border: none;"><label>Belum Baca</label></td>
-                                    <td style="border: none;">
-                                        <input type="checkbox">
-                                    </td>
-								</tr>
-                                <tr>
-									<td>2</td>
-									<td>Cristiano Ikhsan </td>
-									<td>goat@gmail.com</td>
-                                    <td>08123456789</td>
-                                    <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                    <td style="border: none;"><label>Sudah Baca</label></td>
-                                    <td style="border: none;">
-                                        <input type="checkbox" checked>
+                                    <td>Universitas</td>
+									<td>Verified</td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-primary" onclick="window.location.href='/proses'"><i class="bi bi-pencil-square"></i></button>
                                     </td>
 								</tr>
                             </tbody>
-					    </table>                
+						</table>
                     </div>
                 </div>
             </div>

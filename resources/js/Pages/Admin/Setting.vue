@@ -55,8 +55,8 @@
                 </li>
                 <li>
                     <a href="/">
-                    <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
-                    </div>
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
+                        </div>
                         <div class="menu-title">Logout</div>
                     </a>
                 </li>
@@ -77,9 +77,9 @@
 					</a>
 				</div>
                 </nav>    
-                <div class="header-notifications-list">
-                </div>
-                <div class="header-message-list">                                                                                
+                    <div class="header-notifications-list">
+                    </div>
+                    <div class="header-message-list">                                                                                
                 </div>
             </div>
         </header>
@@ -89,52 +89,34 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Pesan</h4>
-                        <hr style="margin-top: 10px;" />		
-                        <label style="margin-right: 10px;">Filter by Status</label> 
-						<select class="form-select2">
-							<option selected>Semua</option>
-							<option>Belum Dibaca</option>
-                            <option>Sudah Dibaca</option>
-						</select>
-                        <br><br>  
+                        <h4 class="mb-0" style="margin-top: -5px;">Setting Event</h4>
+                        <hr style="margin-top: 10px;" />		     
                         <table id="example" class="table table-bordered" style="width:100%">
 							<thead class="table-dark">
 								<tr>
-									<th>ID</th>
-									<th>Nama</th>  
-									<th>Email</th>
-                                    <th style="width: 100px;" >No WhatsApp</th>
-                                    <th style="width: 290px;">Pesan</th>
-									<th style="border: none;">Status</th>
-                                    <th style="border: none;"></th> 
+									<th style="width: 10px;">ID</th>
+									<th style="width: 80px;">Logo</th>
+									<th style="width: 50px;">Judul</th>
+                                    <th style="width: 30px;">Tahun</th>
+									<th style="width: 80px;">Tanggal Mulai</th>
+                                    <th style="width: 80px;">Tanggal Berakhir</th>
+									<th style="width: 50px;">Aksi</th>
 								</tr>
 							</thead>
                             <tbody>
 								<tr>
 									<td>1</td>
-									<td>Lionel Andres </td>
-									<td>goat@gmail.com</td>
-                                    <td>08123456789</td>
-                                    <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                    <td style="border: none;"><label>Belum Baca</label></td>
-                                    <td style="border: none;">
-                                        <input type="checkbox">
-                                    </td>
-								</tr>
-                                <tr>
-									<td>2</td>
-									<td>Cristiano Ikhsan </td>
-									<td>goat@gmail.com</td>
-                                    <td>08123456789</td>
-                                    <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                    <td style="border: none;"><label>Sudah Baca</label></td>
-                                    <td style="border: none;">
-                                        <input type="checkbox" checked>
+									<td>images1.jpg</td>
+									<td>Olinas</td>
+                                    <td>2024</td>
+									<td>10/04/2024</td>
+                                    <td>29/04/2024</td>
+									<td style="text-align: center;">
+                                        <button class="btn btn-primary" onclick="window.location.href='/editsetting'"><i class="bi bi-pencil-square"></i></button>
                                     </td>
 								</tr>
                             </tbody>
-					    </table>                
+						</table>
                     </div>
                 </div>
             </div>

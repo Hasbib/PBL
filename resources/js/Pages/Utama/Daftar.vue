@@ -16,23 +16,23 @@
 									</div>
                                     <br><br>
 									<div class="form-body">
-										<form class="row g-3">
-											<div class="col-sm-6">
-												<label for="inputNamaDepan" class="form-label">Nama Depan</label>
-												<input type="email" class="form-control" id="inputNamaDepan" placeholder="Nama depan">
+										<form class="row g-3" @submit.prevent="registerUser">
+											<div class="col-12">
+												<label for="inputNamaLengkap" class="form-label">Nama Lengkap</label>
+												<input type="name" class="form-control" id="inputNamaLengkap" placeholder="Nama lengkap">
 											</div>
-											<div class="col-sm-6">
-												<label for="inputNamaBelakang" class="form-label">Nama Belakang</label>
-												<input type="email" class="form-control" id="inputNamaBelakang" placeholder="Nama belakang">
+											<div class="col-12">
+												<label for="inputUsername" class="form-label">Username</label>
+												<input v-model="username" type="name" class="form-control" id="inputUsername" placeholder="Username">
 											</div>
 											<div class="col-12">
 												<label for="inputEmailAddress" class="form-label">Email</label>
-												<input type="email" class="form-control" id="inputEmailAddress" placeholder="Email">
+												<input v-model="email" type="email" class="form-control" id="inputEmailAddress" placeholder="Email">
 											</div>
 											<div class="col-12">
 												<label for="inputChoosePassword" class="form-label">Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Masukkan Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input v-model="password" type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Masukkan Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>
 											</div>	
 											<div class="col-12">
@@ -43,7 +43,7 @@
 											</div>
 											<div class="col-12">
 												<div class="d-grid">
-													<a href="/index2" class="btn btn-primary"><i class='bx bx-user'></i>Daftar</a>
+													<button type="submit" onclick="window.location.href='/index2'" class="btn btn-primary"><i class='bx bx-user'></i>Registrasi</button>
 												</div>
                                                 <div class="login-separater text-center mb-4"> <span>ATAU MASUK DENGAN EMAIL</span>
 													<hr/>
@@ -76,11 +76,42 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
-    methods: {
-        goToIndex2() {
-            this.$router.push('/index2');
-        }
-    }
-}
+  data() {
+    return {
+      username: '',
+      email: '',
+      password: '',
+    };
+  },
+  methods: {
+    async registerUser() {
+      try {
+        const response = await axios.post('http://localhost:8000/api/registrasi', {
+          username: this.username,
+          email: this.email,
+          password: this.password,
+        });
+
+        console.log(response.data);
+      } catch (error) {
+        console.error(error.response.data);
+      }
+      this.$router.push('/');
+    },
+    cancelLogin() {
+      this.$router.go(-1);
+    },
+  },
+  head() {
+    return {
+      script: [
+        { src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js' },
+        { src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js' },
+      ],
+    };
+  },
+};
 </script>

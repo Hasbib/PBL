@@ -39,7 +39,7 @@
                                             </div>
 											<div class="col-12">
 												<div class="d-grid">
-													<a href="/index2" class="btn btn-primary"><i class='bx bx-user'></i>Login</a>
+													<a href="/index2" class="btn btn-primary"><i class='bx bx-user'></i>Masuk</a>
 												</div>
 												<div class="login-separater text-center mb-4"> <span>ATAU MASUK DENGAN EMAIL</span>
 													<hr/>

@@ -26,37 +26,31 @@
                         <hr/>
                         <div class="row">
                             <div class="col-md-6"  style="margin-bottom: 10px;">
-                                <label style="margin-bottom: 5px;">Nama Lomba</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Nama Lomba</b></label>
                                 <div style="margin-bottom: 20px;">Lomba Desain</div>
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Nama PJ</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Nama PJ</b></label>
                                 <div style="margin-bottom: 20px;">Agung</div>
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Deskripsi</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Deskripsi</b></label>
                                 <div class="col-12">
                                     <div style="margin-bottom: 20px;">Lomba Desain adalah ajang kompetitif di mana beberapa tim bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif, sesuai dengan tema yang ditentukan.</div>
                                 </div>
-                                <div>
-                                    <label style="margin-bottom: 5px; margin-top: 30px">Tempat</label>
-                                    <div style="margin-bottom: 20px;">Surakarta</div>
-                                </div>
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Kontak PJ</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Kontak PJ</b></label>
                                 <div style="margin-bottom: 20px;">085000000000</div>
      
-                                <label style="margin-bottom: 5px;">Kategori Lomba</label>
-                                <div style="margin-bottom: 20px;">Lomba Desain</div>
+                                <label style="margin-bottom: 5px; color: black;"><b>Tempat</b></label>
+                                <div style="margin-bottom: 20px;">Surakarta</div>
 
-                                <div style="margin-top: 10px;">
-                                    <label style="margin-bottom: 5px;">Biaya Pendaftaran</label>
+                                <div style="margin-top: 10px; color: black;">
+                                    <label style="margin-bottom: 5px;"><b>Biaya Pendaftaran</b></label>
                                     <div style="margin-bottom: 20px;">20.000</div>
                                 </div>
-                            </div>
-       
-                            
+                            </div>    
                         </div>
                         <div style="display: flex;">
                             <button class="btn btn-danger" style="width: 200px; margin: auto; margin-top: 50px; margin-bottom: 30px" onclick="window.location.href='/lomba'">Kembali</button>

@@ -27,15 +27,15 @@
                     <ul>
                         <li style="padding-left: 35px;"> <a href="/lomba">Lomba</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Administrator</a>
+                        <li style="padding-left: 35px;"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Setting</a>
+                        <li style="padding-left: 35px;"> <a href="/tim">Tim</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Tim</a>
+                        <li style="padding-left: 35px;"> <a href="/sponsor">Sponsor</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Sponsor</a>
+                        <li style="padding-left: 35px;"> <a href="/berita">Berita</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Berita</a>
+                        <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
                 </li>
@@ -109,7 +109,7 @@
                                     <th>ID</th>
                                     <th>Nama Lomba</th>
                                     <th>Deskripsi</th>
-                                    <th>Kategori</th>
+                                    <th>Nama PJ</th>
                                     <th>Kontak PJ</th>  
                                     <th style="width: 180px;">Aksi</th>
                                 </tr>
@@ -119,7 +119,7 @@
                                     <td>1</td>
                                     <td>Lomba Desain</td>
                                     <td>Desain adalah</td>
-                                    <td>Lomba Desain</td>
+                                    <td>Leocris</td>
                                     <td>29 Maret 2024</td>
                                     <td style="text-align: center;">
                                         <button class="btn btn-secondary" onclick="window.location.href='/detaillomba'"><i class="bi bi-eye"></i></button>

@@ -26,38 +26,29 @@
                         <hr/>
                         <div class="row">
                             <div class="col-md-6"  style="margin-bottom: 10px;">
-                                <label style="margin-bottom: 5px;">Nama Lomba</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Nama Lomba</b></label>
                                 <input type="email" class="form-control">
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Nama PJ</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Nama PJ</b></label>
                                 <input type="email" class="form-control">
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Deskripsi</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Deskripsi</b></label>
                                 <div class="col-12">
-                                    <textarea class="form-control" id="inputProductDescription" rows="4" style="margin-bottom: 10px;"></textarea>  
-                                </div>
-                                <div>
-                                    <label style="margin-bottom: 5px;">Tempat</label>
-                                    <input type="email" class="form-control">
+                                    <textarea class="form-control" id="inputProductDescription" rows="7" style="margin-bottom: 10px;"></textarea>  
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Kontak PJ</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Kontak PJ</b></label>
                                 <input type="email" class="form-control" style="margin-bottom: 8px;">
      
-                                <label style="margin-bottom: 5px;">Kategori Lomba</label>
-                                <div class="col-12">
-                                    <select class="form-select" id="inputProductType">
-                                        <option></option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
+                                <div>
+                                    <label style="margin-bottom: 5px; color: black;"><b>Tempat</b></label>
+                                    <input type="email" class="form-control">
                                 </div>
                                 <div style="margin-top: 10px;">
-                                    <label style="margin-bottom: 5px;">Biaya Pendaftaran</label>
+                                    <label style="margin-bottom: 5px; color: black;"><b>Biaya Pendaftaran</b></label>
                                     <input type="email" class="form-control" style="margin-bottom: 8px;">
                                 </div>
                             </div>

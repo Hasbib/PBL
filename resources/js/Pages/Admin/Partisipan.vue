@@ -27,15 +27,15 @@
                     <ul>
                         <li style="padding-left: 35px;"> <a href="/lomba">Lomba</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Administrator</a>
+                        <li style="padding-left: 35px;"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Setting</a>
+                        <li style="padding-left: 35px;"> <a href="/tim">Tim</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Tim</a>
+                        <li style="padding-left: 35px;"> <a href="/sponsor">Sponsor</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Sponsor</a>
+                        <li style="padding-left: 35px;"> <a href="/berita">Berita</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/proses">Berita</a>
+                        <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
                 </li>
@@ -108,7 +108,7 @@
                                     <th>Instansi</th>
 									<th>Email</th>
                                     <th>Status</th>
-									<th>Tanggal</th>
+									<th style="width: 100px;">Tanggal</th>
 								</tr>
 							</thead>
                             <tbody>

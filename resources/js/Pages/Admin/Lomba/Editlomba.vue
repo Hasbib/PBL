@@ -26,38 +26,29 @@
                         <hr/>
                         <div class="row">
                             <div class="col-md-6"  style="margin-bottom: 10px;">
-                                <label style="margin-bottom: 5px;">Nama Lomba</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Nama Lomba</b></label>
                                 <input type="email" class="form-control" value="Lomba Desain">
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Nama PJ</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Nama PJ</b></label>
                                 <input type="email" class="form-control" value="Agung">
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Deskripsi</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Deskripsi</b></label>
                                 <div class="col-12">
-                                    <textarea class="form-control" id="inputProductDescription" rows="4" value="Lomba Desain adalah ajang kompetitif di mana beberapa tim bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif, sesuai dengan tema yang ditentukan." style="margin-bottom: 10px;" ></textarea>  
-                                </div>
-                                <div>
-                                    <label style="margin-bottom: 5px;">Tempat</label>
-                                    <input type="email" class="form-control" value="Surakarta">
+                                    <textarea class="form-control" id="inputProductDescription" rows="7" value="Lomba Desain adalah ajang kompetitif di mana beberapa tim bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif, sesuai dengan tema yang ditentukan." style="margin-bottom: 10px;" ></textarea>  
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <label style="margin-bottom: 5px;">Kontak PJ</label>
+                                <label style="margin-bottom: 5px; color: black;"><b>Kontak PJ</b></label>
                                 <input type="email" class="form-control" value="085000000000" style="margin-bottom: 8px;">
      
-                                <label style="margin-bottom: 5px;">Kategori Lomba</label>
-                                <div class="col-12">
-                                    <select class="form-select" id="inputProductType">
-                                        <option></option>
-                                        <option value="1" selected>Lomba Desain</option>
-                                        <option value="2">Lomba AR</option>
-                                        <option value="3">Lomba VR</option>
-                                    </select>
+                                <div>
+                                    <label style="margin-bottom: 5px; color: black;"><b>Tempat</b></label>
+                                    <input type="email" class="form-control">
                                 </div>
                                 <div style="margin-top: 10px;">
-                                    <label style="margin-bottom: 5px;">Biaya Pendaftaran</label>
+                                    <label style="margin-bottom: 5px; color: black;"><b>Biaya Pendaftaran</b></label>
                                     <input type="email" class="form-control" value="20.000" style="margin-bottom: 8px;">
                                 </div>
                             </div>
