@@ -31,6 +31,22 @@ Route::get('/lomba', [PagesController::class, 'lomba']);
 Route::get('/tambahlomba', [PagesController::class, 'tambahlomba']);
 Route::get('/editlomba', [PagesController::class, 'editlomba']);
 Route::get('/detaillomba', [PagesController::class, 'detaillomba']);
+Route::get('/sponsor', [PagesController::class, 'sponsor']);
+Route::get('/tambahsponsor', [PagesController::class, 'tambahsponsor']);
+Route::get('/editsponsor', [PagesController::class, 'editsponsor']);
+Route::get('/detailsponsor', [PagesController::class, 'detailsponsor']);
+Route::get('/berita', [PagesController::class, 'berita']);
+Route::get('/tambahberita', [PagesController::class, 'tambahberita']);
+Route::get('/editberita', [PagesController::class, 'editberita']);
+Route::get('/detailberita', [PagesController::class, 'detailberita']);
+Route::get('/administrator', [PagesController::class, 'administrator']);
+Route::get('/tambahadministrator', [PagesController::class, 'tambahadministrator']);
+Route::get('/editadministrator', [PagesController::class, 'editadministrator']);
+Route::get('/detailadministrator', [PagesController::class, 'detailadministrator']);
+Route::get('/tim', [PagesController::class, 'tim']);
+Route::get('/detailtim', [PagesController::class, 'detailtim']);
+Route::get('/setting', [PagesController::class, 'setting']);
+Route::get('/editsetting', [PagesController::class, 'editsetting']);
 
 
 Route::get('/proses', [PagesController::class, 'proses']);
