@@ -122,7 +122,7 @@
                                     <td>Universitas</td>
 									<td>Verified</td>
                                     <td style="text-align: center;">
-                                        <button class="btn btn-primary" onclick="window.location.href='/proses'"><i class="bi bi-pencil-square"></i></button>
+                                        <button class="btn btn-secondary" onclick="window.location.href='/detailtim'"><i class="bi bi-eye"></i></button>
                                     </td>
 								</tr>
                             </tbody>

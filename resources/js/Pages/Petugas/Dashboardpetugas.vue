@@ -12,32 +12,25 @@
             <!--navigation-->
             <ul class="metismenu" id="menu">
                 <li>
-                    <a href="/index2">
+                    <a href="/dashboardpetugas">
                         <div class="parent-icon"><i class='bx bx-home-circle'></i>
                         </div>
                         <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;" class="has-arrow">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
+                    <a href="/proses">
+                        <div class="parent-icon"><i class=""></i>
                         </div>
-                        <div class="menu-title">Event</div>
+                        <div class="menu-title" style="padding-left: 25px;">Event</div>
                     </a>
-                    <ul>
-                        <li style="padding-left: 35px;"> <a href="/lomba">Lomba</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/administrator">Administrator</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/tim">Tim</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/sponsor">Sponsor</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/berita">Berita</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
-                        </li>
-                    </ul>
+                </li>
+                <li>
+                    <a href="/tim">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
+                        </div>
+                        <div class="menu-title">Tim</div>
+                    </a>
                 </li>
                 <li>
                     <a href="/partisipan">
@@ -53,12 +46,11 @@
                         <div class="menu-title">Pesan <span class="alert-count">1</span></div>
                     </a>
                 </li>
-                
                 <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
-                        <div class="menu-title">Logout</div>
+                        <div class="menu-title">Keluar</div>
                     </a>
                 </li>
             </ul>
@@ -67,21 +59,21 @@
         <!--end sidebar wrapper -->
         <!--start header -->
         <header>
-            <div class="topbar d-flex align-items-center">
-                <nav class="navbar navbar-expand">
+          <div class="topbar d-flex align-items-center">
+              <nav class="navbar navbar-expand">
                 <div class="top-menu ms-auto">
-					<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#">
-						<div class="user-info ps-3">
-							<p class="user-name mb-0">Habib</p>						
-						</div>
-                        <img src="../../../../public/bootstrap/images/profil.png" class="user-img" alt="user avatar" style="width: 38px; height: 38px;">
-					</a>
-				</div>
-                </nav>    
-                    <div class="header-notifications-list">
+                  <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#">
+                    <div class="user-info ps-3">
+                      <p class="user-name mb-0">Petugaas</p>						
                     </div>
-                    <div class="header-message-list">                                                                                
-                </div>
+                    <img src="../../../../public/bootstrap/images/profil.png" class="user-img" alt="user avatar" style="width: 38px; height: 38px;">
+                  </a>
+				        </div>
+              </nav>    
+              <div class="header-notifications-list">
+              </div>
+              <div class="header-message-list">                                                                                
+              </div>
             </div>
         </header>
         <!--end header -->

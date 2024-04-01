@@ -21,7 +21,7 @@
                        <a class="nav-link" href="#tentang-section">Tentang</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#kategori-section">Kategori</a>
+                       <a class="nav-link" href="#lomba-section">Lomba</a>
                    </li>
                    <li class="nav-item">
                        <a class="nav-link" href="#timeline-section">Timeline</a>
@@ -106,13 +106,13 @@
    <!--=================================
        CATEGORIES START
    ==================================-->
-   <section id="kategori-section" class="tf__categories mt_95">
+   <section id="lomba-section" class="tf__categories mt_95">
        <div class="tf__activities_slider_area">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                         <div class="tf__heading_area mb_15">
-                            <h5>Kategori Lomba</h5>
+                            <h5>Daftar Lomba</h5>
                         </div>
                     </div>
                 </div>
@@ -175,11 +175,18 @@
 
 
    <section id="timeline-section" class="tf__categories mt_95">
-       <div class="container">
+       <div class="container" style="margin-bottom: -50px;">
            <div class="row">
                <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                    <div class="tf__heading_area mb_15">
-                       <h5>Timeline</h5>
+                       <h5 style="margin-bottom: 40px;">Timeline</h5>
+                       <div class="card" style="height: 180px; background-color: #D9D9D9;">
+                            <div class="card-body p-4 text-center">
+                                <h6 style="text-align: center; margin-bottom: 25px; font-size: 20px;"><b>Event OLINAS</b></h6>
+                               <h6 style="margin-bottom: 18px; color: #8D8686;"><b>Tanggal Mulai : 12 April 2024</b></h6>
+                               <h6 style="margin-bottom: 18px; color: #8D8686;"><b>Tanggal Berakhir : 13 Mei 2024</b></h6>
+                            </div>                        
+                        </div>
                    </div>
                </div>
            </div>
