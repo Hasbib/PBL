@@ -47,6 +47,12 @@ Route::get('/tim', [PagesController::class, 'tim']);
 Route::get('/detailtim', [PagesController::class, 'detailtim']);
 Route::get('/setting', [PagesController::class, 'setting']);
 Route::get('/editsetting', [PagesController::class, 'editsetting']);
+Route::get('/dashboardjuri', [PagesController::class, 'dashboardjuri']);
+Route::get('/dashboardpetugas', [PagesController::class, 'dashboardpetugas']);
+Route::get('/overviewpeserta', [PagesController::class, 'overviewpeserta']);
+Route::get('/profilpeserta', [PagesController::class, 'profilpeserta']);
+Route::get('/notifikasipeserta', [PagesController::class, 'notifikasipeserta']);
+Route::get('/reportpeserta', [PagesController::class, 'reportpeserta']);
 
 
 Route::get('/proses', [PagesController::class, 'proses']);
