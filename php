@@ -2,3 +2,6 @@ ss
 
 
 HALO SEMUA
+
+
+PUSING SEKALI
