@@ -1,4 +1,5 @@
 <template>
+    <!--wrapper-->
     <div class="wrapper">
         <!--sidebar wrapper -->
         <div class="sidebar-wrapper" data-simplebar="true">
@@ -38,13 +39,13 @@
                         <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
-                </li>
-                <li>
-                    <a href="/partisipan">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
-                        </div>
-                        <div class="menu-title">Partisipan</div>
-                    </a>
+                  </li>
+                  <li>
+                      <a href="/partisipan">
+                          <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
+                          </div>
+                          <div class="menu-title">Partisipan</div>
+                      </a>
                 </li>
                 <li>
                     <a href="/pesan">
@@ -52,13 +53,30 @@
                         </div>
                         <div class="menu-title">Pesan <span class="alert-count">1</span></div>
                     </a>
-                </li>
+                </li>         
                 <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
                         <div class="menu-title">Logout</div>
                     </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
+                        </div>
+                        <div class="menu-title">SEMENTARA</div>
+                    </a>
+                    <ul>
+                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        </li>
+                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        </li>
+                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        </li>
+                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
             <!--end navigation-->
@@ -68,19 +86,32 @@
         <header>
             <div class="topbar d-flex align-items-center">
                 <nav class="navbar navbar-expand">
-				<div class="top-menu ms-auto">
-					<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#">
-						<div class="user-info ps-3">
-							<p class="user-name mb-0">Habib</p>						
-						</div>
-                        <img src="../../../../public/bootstrap/images/profil.png" class="user-img" alt="user avatar" style="width: 38px; height: 38px;">
-					</a>
-				</div>
-                </nav>    
-                    <div class="header-notifications-list">
+                    <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
                     </div>
-                    <div class="header-message-list">                                                                                
-                </div>
+                    <div class="search-bar flex-grow-1">
+                    </div>
+                    <div class="top-menu ms-auto">
+                        <ul class="navbar-nav align-items-center">
+                            <div class="user-info ps-3">
+                            <p class="user-name mb-0">Habib</p>						
+                        </div>
+                        <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                        </div>
+                            <li class="nav-item dropdown dropdown-large">
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div class="header-notifications-list">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-large">	
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div class="header-message-list">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>		
+                </nav>
             </div>
         </header>
         <!--end header -->
@@ -90,38 +121,43 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0" style="margin-top: -5px;">Setting Event</h4>
-                        <hr style="margin-top: 10px;" />		     
-                        <table id="example" class="table table-bordered" style="width:100%">
-							<thead class="table-dark">
-								<tr>
-									<th style="width: 10px;">ID</th>
-									<th style="width: 80px;">Logo</th>
-									<th style="width: 50px;">Judul</th>
-                                    <th style="width: 30px;">Tahun</th>
-									<th style="width: 80px;">Tanggal Mulai</th>
-                                    <th style="width: 80px;">Tanggal Berakhir</th>
-									<th style="width: 50px;">Aksi</th>
-								</tr>
-							</thead>
-                            <tbody>
-								<tr>
-									<td>1</td>
-									<td>images1.jpg</td>
-									<td>Olinas</td>
-                                    <td>2024</td>
-									<td>10/04/2024</td>
-                                    <td>29/04/2024</td>
-									<td style="text-align: center;">
-                                        <button class="btn btn-primary" onclick="window.location.href='/editsetting'"><i class="bi bi-pencil-square"></i></button>
-                                    </td>
-								</tr>
-                            </tbody>
-						</table>
+                        <hr style="margin-top: 10px;" />	
+                        <div class="table-responsive">	     
+                            <table id="example" class="table table-bordered" style="width:100%">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th style="width: 0px;">ID</th>
+                                        <th style="width: 80px;">Logo</th>
+                                        <th style="width: 80px;">Judul</th>
+                                        <th style="width: 30px;">Tahun</th>
+                                        <th style="width: 80px;">Tanggal Mulai</th>
+                                        <th style="width: 80px;">Tanggal Berakhir</th>
+                                        <th style="width: 50px;">Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>images1.jpg</td>
+                                        <td>Olinas</td>
+                                        <td>2024</td>
+                                        <td>10/04/2024</td>
+                                        <td>29/04/2024</td>
+                                        <td style="text-align: center;">
+                                            <button class="btn btn-primary" onclick="window.location.href='/editsetting'"><i class="bi bi-pencil-square"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--end page wrapper -->
+        <footer class="page-footer">
+            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
+        </footer>
     </div>
 </template>
 

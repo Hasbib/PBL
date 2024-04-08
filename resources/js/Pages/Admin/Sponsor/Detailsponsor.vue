@@ -37,18 +37,16 @@
                                 <label style="margin-bottom: 5px; color: black;"><b>Gambar</b></label><br>
                                 <img src="../../../../../public/bootstrap/images/about_2_img_3.jpg" alt="Product Image" class="img-fluid" style="display:flex; margin: auto;" >
                             </div>
-                            
                         </div>
                         <div style="display: flex;">
-                            <button class="btn btn-danger" style="width: 200px; margin: auto; margin-top: 50px; margin-bottom: 30px" onclick="window.location.href='/sponsor'">Batal</button>
+                            <button class="btn btn-danger" style="width: 200px; margin: auto; margin-top: 50px; margin-bottom: 30px" onclick="window.location.href='/sponsor'">Kembali</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!--end page wrapper -->
     </div>
-    </template>
+</template>
     
    

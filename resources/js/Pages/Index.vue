@@ -55,14 +55,8 @@
            <div class="row">
                <div class="col-xl-7 col-lg-8">
                    <div class="tf__banner_text wow fadeInUp" data-wow-duration="1.5s">
-                       <h1>Olimpiade Informatika Nusantara</h1>
-                       <h7>OLINAS 2024</h7>
-                       <!-- <p>20 Februari - 20 Maret 2024</p> --> <p></p>
-                       <ul class="d-flex flex-wrap align-items-center">
-                           <li><a class="common_btn5" href="file:///C:/xampp/htdocs/SEMESTER4/PBL/images/Tutorial%20biar%20jago.pdf">Daftar Sekarang</a></li>
-                           <li><a class="common_btn6" href="file:///C:/xampp/htdocs/SEMESTER4/PBL/images/Tutorial%20biar%20jago.pdf">Panduan Lomba 2045</a></li>
-                           <li><a class="common_btn7" href="file:///C:/xampp/htdocs/SEMESTER4/PBL/images/Tutorial%20biar%20jago.pdf">Panduan Pendaftaran dan Pengumpulan Karya</a></li>         
-                       </ul>
+                       <h1 style="font-size: 26px;"><b>Olimpiade Informatika Nasional</b></h1>
+                       <h1 style="font-size: 40px;"><b>OLINAS 2024</b></h1>
                    </div>
                </div>
            </div>

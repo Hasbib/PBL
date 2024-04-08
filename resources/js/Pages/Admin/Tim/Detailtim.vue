@@ -51,11 +51,15 @@
                             </div>
                             <div class="col-md-3">
                                 <label style="margin-bottom: 5px; color: black;"><b>STATUS</b></label>
-                                <div style="margin-bottom: 20px;">Universitas</div>
+                                <div style="margin-bottom: 20px;">Verified</div>
+                            </div>
+                            <div class="col-md-2">
+                                <label style="margin-bottom: 5px; color: black;"><b>Surat</b></label>
+                                <div style="margin-bottom: 20px;"><a href="#">Lihat Surat</a></div>
                             </div>
                             <div class="col-md-3">
                                 <label style="margin-bottom: 5px; color: black;"><b>PEMBAYARAN</b></label>
-                                <div style="margin-bottom: 20px;">Universitas</div>
+                                <div style="margin-bottom: 20px;"><a href="#">Lihat Bukti</a></div>
                             </div>
                         </div>
                         <br><br><br>
@@ -70,7 +74,7 @@
 							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
 			                            </div>
                                         <br>
-                                        <h6><b>Muhammaad Afkar</b></h6>
+                                        <h6><b>Muhammaad Afkar Triwardana</b></h6>
                                         <br>
                                         <div style="margin-bottom: 7px;">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
@@ -87,7 +91,7 @@
 							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
 						                </div>
                                         <br>
-                                        <h6><b>Muhammaad Haidar</b></h6>
+                                        <h6><b>Muhammaad Haidar Taqiyuddin</b></h6>
                                         <br>
                                         <div style="margin-bottom: 7px;">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
@@ -104,7 +108,7 @@
 							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
 						                </div>
                                         <br>
-                                        <h6><b>Iqbal Farhan</b></h6>
+                                        <h6><b>Iqbal Farhan Rasyid</b></h6>
                                         <br>
                                         <div style="margin-bottom: 7px;">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
@@ -121,7 +125,7 @@
 							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
 						                </div>
                                         <br>
-                                        <h6><b>Lutfi Iffah</b></h6>
+                                        <h6><b>Lutfi Iffah Lathifah</b></h6>
                                         <br>
                                         <div style="margin-bottom: 7px;">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
@@ -129,7 +133,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card" style="height: 300px;">
+                        <div class="card" style="height: 400px;">
                             <div class="card-body p-4 text-center">
                                 <h6 style="text-align: left; margin-bottom: 40px;">PENGUMPULAN KARYA</h6>
                                <div class="row">

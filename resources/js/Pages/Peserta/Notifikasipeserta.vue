@@ -1,4 +1,5 @@
 <template>
+    <!--wrapper-->
     <div class="wrapper">
         <!--sidebar wrapper -->
         <div class="sidebar-wrapper" data-simplebar="true">
@@ -19,7 +20,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/proses">
+                    <a href="/daftarlomba">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
                         </div>
                         <div class="menu-title">Daftar Lomba</div>
@@ -53,6 +54,23 @@
                         <div class="menu-title">Keluar</div>
                     </a>
                 </li>
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
+                        </div>
+                        <div class="menu-title">SEMENTARA</div>
+                    </a>
+                    <ul>
+                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        </li>
+                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        </li>
+                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        </li>
+                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
             <!--end navigation-->
         </div>
@@ -61,19 +79,32 @@
         <header>
             <div class="topbar d-flex align-items-center">
                 <nav class="navbar navbar-expand">
-				<div class="top-menu ms-auto">
-					<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#">
-						<div class="user-info ps-3">
-							<p class="user-name mb-0">Habib</p>						
-						</div>
-                        <img src="../../../../public/bootstrap/images/profil.png" class="user-img" alt="user avatar" style="width: 38px; height: 38px;">
-					</a>
-				</div>
-                </nav>    
-                    <div class="header-notifications-list">
+                    <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
                     </div>
-                    <div class="header-message-list">                                                                                
-                </div>
+                    <div class="search-bar flex-grow-1">
+                    </div>
+                    <div class="top-menu ms-auto">
+                        <ul class="navbar-nav align-items-center">
+                            <div class="user-info ps-3">
+                                <p class="user-name mb-0">Habib</p>						
+                            </div>
+                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                            </div>
+                            <li class="nav-item dropdown dropdown-large">
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div class="header-notifications-list">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-large">	
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div class="header-message-list">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>		
+                </nav>
             </div>
         </header>
         <!--end header -->
@@ -81,8 +112,10 @@
         <div class="page-wrapper">
             <div class="page-content"> 
                 <div class="card-body" style="text-align: center;">
-                    <button class="btn btn-danger" style="width: 950px; height: 50px; color: black;">Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux dalam event Olinas (Olimpiade Nasional)</button>    
-                    <button class="btn btn-success" style="width: 950px; height: 50px; margin-top: 50px; color: black;">Selamat TIM anda telah terdaftar lomba ui/ux </button>
+                    <div class="d-grid notifikasi-peserta"> <a class="btn btn-danger radius-3 text-warna" style="color: black;">Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux dalam event Olinas (Olimpiade Nasional)</a>
+					</div>
+                    <div class="d-grid notifikasi-peserta-2"> <a class="btn btn-success radius-3 text-warna" style="color: black;">Selamat TIM anda telah terdaftar lomba UI/UX</a>
+				    </div>
                 </div>
             </div>
         </div>
