@@ -36,7 +36,7 @@
                             <div>
                                 <label for="inputChoosePassword" class="form-label" style="color: black;"><b>Password</b></label>
 								<div class="input-group" id="show_hide_password">
-					    			<input type="password" class="form-control border-end-0" id="inputChoosePassword"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+					    			<input v-model="password" type="password" class="form-control border-end-0" id="inputChoosePassword"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 								</div>
                             </div>
                             <div>

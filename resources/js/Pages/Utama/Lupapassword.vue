@@ -2,12 +2,12 @@
     <!--=========================
     LOGIN START
 ==========================-->
-<section>
-	<div class="wrapper">
-		<div class="authentication-forgot d-flex align-items-center justify-content-center">
-			<div class="card forgot-box" style="width: 500px;">
-				<div class="card-body">
-					<div class="p-4 rounded  border">
+    <section style="background: url(../assets/images/login-images/bg-forgot-password.jpg);">
+        <div class="wrapper">
+            <div class="authentication-forgot d-flex align-items-center justify-content-center">
+                <div class="card forgot-box">
+                    <div class="card-body">
+                        <div class="p-4 rounded  border">
                             <div class="text-center">
                                 <img src="../../../../public/assets/images/icons/forgot-2.png" width="120" alt="" />
                             </div>

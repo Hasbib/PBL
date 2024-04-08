@@ -15,22 +15,22 @@
            <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav ms-auto">
                    <li class="nav-item">
-                       <a class="nav-link active" href="#">Beranda</a>
+                       <a class="nav-link" href="/">Beranda</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#tentang-section">Tentang</a>
+                       <a class="nav-link" href="/#tentang-section">Tentang</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#lomba-section">Lomba</a>
+                       <a class="nav-link" href="/#kategori-section">Kategori</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#timeline-section">Timeline</a>
+                       <a class="nav-link" href="/#timeline-section">Timeline</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#berita-section">Berita</a>
+                       <a class="nav-link active" href="/#berita-section">Berita</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#sponsor-section">Sponsor</a>
+                       <a class="nav-link" href="/#sponsor-section">Sponsor</a>
                    </li>
                    <li class="nav-item">
                        <a class="nav-link" href="/kontak">Kontak</a>
@@ -46,15 +46,15 @@
        MAIN MENU END
    ==================================-->
 
-    <br><br>
-   <!--=================================
-       BANNER START
-   ==================================-->
-   <section class="tf__event_details mt_195 xs_mt_100">
+
+    <!--=================================
+        EVENT DETAILS PAGE START
+    ==================================-->
+    <section class="tf__event_details mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
-                <div class="col-12" style="margin-top: 0px;">
-                    <h2 style="text-align: center; margin-bottom: 50px;"><b>Ketua Emailkomp Periode 2024</b> </h2>
+                <div class="col-12" style="margin-top: 80px;">
+                    <h2 style="text-align: center;margin-bottom: 50px;"><b>Ketua Emailkomp Periode 2024</b> </h2>
                     <div class="tf__event_details_img "> 
                         <img src="../../../../public/bootstrap/images/farel.png" alt="event details" class="w-100">
                     </div>
@@ -69,27 +69,20 @@
             </div>
         </div>
     </section>
+    <!--=================================
+        EVENT DETAILS PAGE END
+    ==================================-->
+    
+    <!--=================================
+           FOOTER START
+       ==================================-->
+       <footer class="tf__footer mt_100">
+            <div class="text-center p-4" style="background-color: #191e24f5; color: white;">
+                Copyright ©2024 Tim Website OLINAS
+            </div>
+        </footer>
+       <!--=================================
+           FOOTER END
+       ==================================-->
 
-
-   <!--=================================
-       FOOTER START
-   ==================================-->
-    <footer class="tf__footer mt_100">
-        <div class="text-center p-4" style="background-color: #191e24f5; color: white;">
-            Copyright ©2024 Tim Website OLINAS
-        </div>
-   </footer>
-   <!--=================================
-       FOOTER END
-   ==================================-->
-
-
-   <!--=============================
-       SCROLL BUTTON START
-   ==============================-->
-   <div class="tf__scroll_btn" href="#"> go to top </div>
-   <!--=============================
-       SCROLL BUTTON END 
-   ==============================-->
 </template>
-

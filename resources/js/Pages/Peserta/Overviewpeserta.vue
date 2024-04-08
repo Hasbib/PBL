@@ -1,5 +1,4 @@
 <template>
-    <!--wrapper-->
     <div class="wrapper">
         <!--sidebar wrapper -->
         <div class="sidebar-wrapper" data-simplebar="true">
@@ -20,7 +19,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/daftarlomba">
+                    <a href="/proses">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
                         </div>
                         <div class="menu-title">Daftar Lomba</div>
@@ -54,23 +53,6 @@
                         <div class="menu-title">Keluar</div>
                     </a>
                 </li>
-                <li>
-                    <a href="javascript:;" class="has-arrow">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
-                        </div>
-                        <div class="menu-title">SEMENTARA</div>
-                    </a>
-                    <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
-                        </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
-                        </li>
-                    </ul>
-                </li>
             </ul>
             <!--end navigation-->
         </div>
@@ -79,101 +61,72 @@
         <header>
             <div class="topbar d-flex align-items-center">
                 <nav class="navbar navbar-expand">
-                    <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
+				<div class="top-menu ms-auto">
+					<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#">
+						<div class="user-info ps-3">
+							<p class="user-name mb-0">Habib</p>						
+						</div>
+                        <img src="../../../../public/bootstrap/images/profil.png" class="user-img" alt="user avatar" style="width: 38px; height: 38px;">
+					</a>
+				</div>
+                </nav>    
+                    <div class="header-notifications-list">
                     </div>
-                    <div class="search-bar flex-grow-1">
-                    </div>
-                    <div class="top-menu ms-auto">
-                        <ul class="navbar-nav align-items-center">
-                            <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
-                            </div>
-                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
-                            </div>
-                            <li class="nav-item dropdown dropdown-large">
-                                <div class="dropdown-menu dropdown-menu-end">
-                                    <div class="header-notifications-list">
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown dropdown-large">	
-                                <div class="dropdown-menu dropdown-menu-end">
-                                    <div class="header-message-list">
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>		
-                </nav>
+                    <div class="header-message-list">                                                                                
+                </div>
             </div>
         </header>
         <!--end header -->
-		<!--start page wrapper -->
-		<div class="page-wrapper">
-			<div class="page-content">
-				<!--breadcrumb-->
-				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
-					<div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">UI / UX</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">AR / VR</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">APLIKASI MOBILE</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">DESAIN WEBSITE</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">SISTEM KEAMANAN DATA</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">MEMBUAT GAME</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--end row-->
-			</div>
-		</div>
-	
-	</div>
-	<!--end switcher-->      
+        <!--start page wrapper -->
+        <div class="page-wrapper">
+            <div class="page-content">
+                <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                    <div class="ps-3">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0 p-0">
+                                <li class="breadcrumb-item">
+                                </li>                             
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Lomba</h4>
+                        <hr style="margin-top: 10px;" />		
+                        <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahlomba'">Tambah Lomba</button>
+                        <hr style="margin-top: 10px;" />
+                        <table id="example" class="table mt-3  table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nama Lomba</th>
+                                    <th>Deskripsi</th>
+                                    <th>Nama PJ</th>
+                                    <th>Kontak PJ</th>  
+                                    <th style="width: 180px;">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lomba Desain</td>
+                                    <td>Desain adalah</td>
+                                    <td>Leocris</td>
+                                    <td>29 Maret 2024</td>
+                                    <td style="text-align: center;">
+                                        <button class="btn btn-secondary" onclick="window.location.href='/detaillomba'"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-primary" onclick="window.location.href='/editlomba'"><i class="bi bi-pencil-square"></i></button>    
+                                        <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end page wrapper -->
+    </div>
 </template>
     
-

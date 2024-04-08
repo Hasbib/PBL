@@ -52,7 +52,7 @@
                             
                         </div>
                         <div style="display: flex;">
-                            <button class="btn btn-danger" style="width: 200px; margin: auto; margin-top: 50px; margin-bottom: 30px" onclick="window.location.href='/berita'">Kembali</button>
+                            <button class="btn btn-danger" style="width: 200px; margin: auto; margin-top: 50px; margin-bottom: 30px" onclick="window.location.href='/berita'">Batal</button>
                         </div>
                     </div>
                 </div>

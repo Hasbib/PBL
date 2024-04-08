@@ -104,17 +104,13 @@ a {
 	margin-left: 250px
 }
 
-
 /*TAMBAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
-@media only screen and (min-width: 790px) {
-    .page-wrapper-tambah {
-        height: 100%;
-        margin-top: -10px;
-        margin-left: 200px;
-        margin-right: 200px;
-    }
+.page-wrapper-tambah {
+	height: 100%;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
 }
-
 
 .page-content {
 	padding: 1.5rem 1.5rem 0.7rem 1.5rem
@@ -2623,41 +2619,3 @@ input.search-control-2::placeholder {
 	}
 }
 
-
-
-
-
-
-.card-overview {
-	height: 240px;
-}
-
-.text-overview {
-	text-align: left;
-	margin-left: 15px; 
-	margin-top: 10px;
-}
-
-.ukuran {
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.button-overview {
-	margin-left: 10px; 
-	margin-right: 10px;
-	margin-top: 150px;
-}
-
-.notifikasi-peserta {
-	margin-top: 10px;
-}
-
-.notifikasi-peserta-2 {
-	margin-top: 70px;
-}
-
-.text-warna {
-	font-family: 'Poppins', sans-serif;
-	color: black;
-}
