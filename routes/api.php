@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Users;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\EmailVerificationController;
+use App\Http\Controllers\VerificationTokenController;
+use App\Http\Controllers\ForgotPasswordController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -35,3 +37,8 @@ Route::resource('/registrasi', RegistrasiController::class);
 Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [LoginController::class, 'logout'])->middleware('auth:sanctum');
 
+
+// API endpoint untuk mengirim email verifikasi pengaturan ulang kata sandi
+Route::post('/forgot-password', 'App\Http\Controllers\ForgotPasswordController@sendResetLinkEmail');
+Route::post('/verify', [EmailVerificationController::class, 'verify']);
+Route::post('/lupapasword', [VerificationTokenController::class, 'sendResetPasswordEmail']);
