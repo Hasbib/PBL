@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Users; 
+use App\Models\Users; // Ubah dari Users menjadi User
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -11,8 +11,8 @@ class RegistrasiController extends Controller
     // Index
     public function index()
     {
-        // Ambil data dari tabel registrasis
-        $registrasis = Users::orderBy('username', 'asc')->get();
+        // Ambil data dari tabel users
+        $registrasis = Users::orderBy('name', 'asc')->get(); // Ubah 'username' menjadi 'asc' karena orderBy hanya menerima satu argumen
 
         // Buat respons JSON
         return response()->json([
@@ -27,6 +27,7 @@ class RegistrasiController extends Controller
     {
         // Temukan registrasi berdasarkan ID
         $registrasi = Users::findOrFail($id); 
+
         // Buat respons JSON
         return response()->json([
             'success' => true,
@@ -40,9 +41,10 @@ class RegistrasiController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'username' => 'required', 
-            'email' => 'required', 
-            'password' => 'required',
+            'name' => 'required', 
+            'username' => 'required|unique:users', // Tambahkan aturan unik untuk username
+            'email' => 'required|email|unique:users', // Tambahkan aturan unik untuk email
+            'password' => 'required|min:6',
         ]);
 
         // Respons kesalahan validasi
@@ -52,6 +54,7 @@ class RegistrasiController extends Controller
 
         // Simpan ke database
         $registrasi = Users::create([
+            'name' => $request->name,
             'username' => $request->username,
             'email' => $request->email,
             'password' => bcrypt($request->password),
@@ -78,9 +81,10 @@ class RegistrasiController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'username' => 'required',
-            'email' => 'required',
-            'password' => 'required',
+            'name' => 'required',
+            'username' => 'required|unique:users,username,' . $id, // Tambahkan aturan unik untuk username, kecuali untuk ID saat ini
+            'email' => 'required|email|unique:users,email,' . $id, // Tambahkan aturan unik untuk email, kecuali untuk ID saat ini
+            'password' => 'required|min:6',
         ]);
 
         // Respons kesalahan validasi
@@ -94,11 +98,7 @@ class RegistrasiController extends Controller
         // Jika registrasi ditemukan
         if ($registrasi) {
             // Update registrasi
-            $registrasi->update([
-                'username' => $request->username,
-                'email' => $request->email,
-                'password' => bcrypt($request->password), // Updated to hash the password
-            ]);
+            $registrasi->update($request->all());
 
             return response()->json([
                 'success' => true,
